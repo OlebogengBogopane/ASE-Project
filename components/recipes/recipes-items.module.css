@@ -1,0 +1,163 @@
+.item {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 1px 12px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #FDF7FF;
+  height: 550px;
+  width: 300px;
+  text-align: center;
+  position: relative;
+  transition: transform 0.3s ease-in-out;
+ margin-bottom: 25px; 
+}
+
+.item:hover {
+  transform: scale(1.08);
+}
+
+.title1 {
+  height: 57px;
+  margin-bottom: 26px;
+  color: rgb(0, 0, 0);
+
+}
+
+.link a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Styles for the View Recipe button */
+
+.viewRecipeButtonText {
+  color: white;
+  font-size: 14px;
+  /* Adjust the font size */
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.actions {
+  flex-direction: row;
+  justify-content: center;
+  position: absolute;
+  bottom: -30px;
+  width: 100%;
+}
+
+
+/* CookingTime.module.css */
+
+.cookingContainer {
+  display: flex;
+  justify-content: center;
+
+}
+
+.label {
+  font-size: smaller;
+  display: flex;
+  margin-right: 15px;
+  flex-grow: 1;
+}
+
+
+@media (max-width: 480px) {
+  .item {
+    margin-bottom: 40px;
+  }
+}
+
+.actions {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+
+.favoriteButton {
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 8px; /* Adjust padding as needed */
+}
+
+.button-container {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+/* styles.module.css */
+
+.cookingTime {
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.cookingTime div {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.cookingTime div div {
+  flex: 1;
+}
+
+.cookingTimeLabel {
+  font-size: 14px
+}
+
+.category {
+  color: #5c5c5d; 
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.servings {
+  color: #333;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.date {
+  margin-top: 10px;
+  color: #888;
+}
+
+.heartIcon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: white;
+  border-radius: 50%;
+  padding-top: 5px;
+  width: 45px;
+  height: 40px;
+}
+
+.addNotification,
+.removeNotification {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  z-index: 999;
+  text-align: center;
+}
+
+.addNotification {
+  background-color: #4caf4fe4; /* Green background color */
+  color: white; /* White text color */
+}
+
+.removeNotification {
+  background-color: #f44336e1; /* Red background color */
+  color: white; /* White text color */
+}
+

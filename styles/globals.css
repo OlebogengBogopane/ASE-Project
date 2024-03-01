@@ -1,0 +1,127 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600&display=swap');
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', 'Lato', sans-serif;
+  color: #414141;
+  background-color: rgba(255, 255, 255, 0.161);
+  width: 100%;
+} 
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #2b2b2b;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+element.style {
+    text-align: center;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+    text-decoration: none;
+  }
+
+.center {
+  margin: auto;
+  text-align: center;
+}
+
+.hero-section {
+  background-color: rgb(160, 154, 154);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 50vh;
+  padding: 10px;
+  box-sizing: border-box;
+  }
+
+
+
+.show-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.show-info > div {
+  padding: 5px;
+  text-align: center;
+  background-color: #fff;
+  /* Background color for each slide */
+  margin: 0 6px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Add a subtle box shadow */
+}
+
+.show-info h1 {
+  font-size: 15px;
+  margin-top: 0px;
+}
+
+
+.arrow-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #fff;
+  /* Background color for arrow buttons */
+  border-radius: 50%;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.arrow-icon:hover {
+  background-color: #ccc;
+  /* Background color on hover */
+}
+
+.arrow-icon.backward {
+  left: 10px;
+}
+
+.arrow-icon.forward {
+  right: 10px;
+}
+
+button { 
+  color:white; 
+  background-color: #E12626; 
+  border-radius: 10px;
+  height: 30px;
+  border: none;
+} 

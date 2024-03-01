@@ -1,0 +1,35 @@
+/* recipes-list.module.css */
+
+.load-more-button {
+    /* Define your button styles here */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+  /* Class to position the button at the bottom-middle */
+.bottom-middle {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.btn {
+  text-decoration: none;
+  cursor: pointer;
+  font: inherit;
+  background-color: #E12626;
+  border-radius: 10px;
+  color: rgb(228, 226, 226);
+  padding: 0.5rem 1.5rem;
+  text-align: center;
+  box-shadow: 0 1px 6px #312d2d;
+}
+
+.btn:hover {
+  background-color: #972f2f;
+}
+

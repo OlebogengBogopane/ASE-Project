@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+
+
+.rando {
+  text-align: center;
+  font-weight: 400;
+  font-family: "Arial", "Lucida Console", "Courier New", monospace;
+
+}
+
+.container {
+  text-align: center;
+  
+}
+
+.logo {
+  margin: 50px;
+}
+
+
+  @media only screen and (min-width: 320px) {
+    .list {
+      width: 100%;
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    .list {
+      display: grid;
+      justify-items: center;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media only screen and (min-width: 930px) and (max-width: 1240px){
+    .list {
+      display: grid;
+      justify-items: center;
+      grid-template-columns: repeat(3, 1fr);
+    }
+    }
+
+    @media only screen and (min-width: 1241px) {
+      .list {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        row-gap: 2em;
+      }
+    }

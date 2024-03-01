@@ -1,0 +1,91 @@
+.footer {
+  background: url('/public/images/footer-image.jpg') center/cover no-repeat;
+  /* Replace 'your-background-image.jpg' with your actual image path */
+  color: white;
+  text-align: center;
+  position: relative;
+  margin-top: -40px;
+
+}
+
+.logo img {
+  position: relative;
+  width: 100%;
+  max-width: 200px;
+  /* Adjust the maximum width as needed */
+}
+
+.connectWithUs {
+  margin-top: 20px;
+  position: relative;
+}
+
+.connectWithUs input {
+  padding: 10px;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+
+.connectWithUs button {
+  padding: 10px 20px;
+  background-color: #db3434;
+  /* Adjust the button background color as needed */
+  color: white;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: rgba(199, 194, 194, 0.2);
+  align-items: center;
+}
+
+.logoContainer {
+  position: relative;
+  /* Ensure stacking context for child elements */
+  z-index: 2;
+  /* Make sure the logo is above the overlay */
+}
+
+.connectContent {
+  position: relative;
+  /* Ensure stacking context for child elements */
+  z-index: 2;
+  /* Make sure the content is above the overlay */
+}
+
+.image {
+  width: 100%;
+  height: 40%;
+  object-fit: cover;
+  /* Ensure the image covers the container */
+}
+
+@media (max-width: 2560px) {
+  .image {
+    height: 150px;
+    object-fit: cover;
+
+  }
+
+  .connectWithUs button {
+    padding: 10px 20px;
+    background-color: #db3434;
+    /* Adjust the button background color as needed */
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
+
+}

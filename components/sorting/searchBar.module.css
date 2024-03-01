@@ -1,0 +1,219 @@
+/* searchBar.module.css */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 20vh; */
+  background-color: #ededed;
+  /* Background color */
+
+  /* Create space around the search bar */
+  padding: 20px;
+  /* Adjust the padding as needed */
+  padding-bottom: 30px;
+
+}
+
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  /* Rounded edges */
+  padding: 30px;
+  background: #4b534460;
+  width: 400px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  /* Shadow effect */
+}
+
+/* History Ta */
+.selectorSearch {
+  text-align: center;
+  width: 110px;
+  height: 40px;
+  border-radius: 10px;
+  background: #ff0000;
+  margin-left: 10px;
+  color: white;
+  border: none;
+}
+
+/* searchBar.module.css */
+
+.input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  border: #5d5b5b solid;
+  /* Grey background color */
+  padding: 10px;
+  border-radius: 30px;
+
+}
+
+
+/* Delete Button */
+.deleteButton {
+  padding-top: 4px;
+}
+
+/* Delete Button */
+.submitButton {
+ margin-top: 4px;
+}
+
+
+.button {
+  background: #ff3636;
+  /* Red button color */
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-left: 10px;
+  
+}
+
+.button:hover {
+  background: #972f2f;
+  /* Darker red color on hover */
+}
+
+/* Page body */
+.sortSection {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  background-color: black;
+  opacity: 84%;
+  height: 100%;
+  width: 100%;
+  padding-top: 15%;
+  z-index: 1;
+}
+
+.containerdropdown {
+  display: flex;
+  padding-top: 15px;
+  justify-content: center;
+  position: relative;
+  min-width: 150px;
+  height: 45px;
+ 
+}
+
+/* Filter by Category */
+.dropdown {
+  border-radius: 10px;
+  height: 40px;
+  text-align: center;
+  width: 140px;
+  background-color: #ff0000;
+  color: white;
+  border: none;
+}
+
+
+/* Filter by ingridients */
+.dropdown2 {
+  border-radius: 10px;
+  height: 40px;
+  text-align: center;
+  width: 140px;
+  background-color: #ff0000;
+  color: white;
+  border: none;
+}
+
+/*Filter by steps and tags   */
+.recipefilters {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  color: black;
+}
+
+.fillSteps {
+  border-radius: 10px;
+  height: 40px;
+  text-align: center;
+  background-color: #ff0000;
+  width: 140px;
+  color: white;
+  border: none;
+
+}
+
+
+/* Filter by tags */
+.tags {
+  border-radius: 10px;
+  height: 40px;
+  text-align: center;
+  width: 140px;
+  background-color: #ff0000;
+  color: white;
+  border: none;
+}
+
+
+/* Overlay */
+.filters {
+  text-align: center;
+  width: 400px;
+  height: 440px;
+  background-color: rgb(255, 255, 255);
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.filterBtn {
+  background: #ff0101;
+  /* Red button color */
+  height: 40px;
+  width: 110px;
+  margin-left: 20px;
+  border: none;
+}
+
+
+
+.filtersDiv {
+  margin: 20px;
+  color: black;
+}
+
+.nofilter {
+  color: red;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px; 
+  margin: 0; 
+}
+
+/* Mobile View */
+
+@media screen and (max-width: 600px) {
+
+  .filters {
+    margin-top: 80px;
+    margin-left: 10px;
+    width: 95%;
+    height: 80%;
+  }
+
+  .filterBtn {
+    margin-right: 20px;
+  }
+
+  
+  .selectorSearch {
+    margin-top: 10px;
+    margin-right: 20px;
+  }
+}
